@@ -1,5 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
 
-
+}
 
 
 .visually-hidden {
@@ -13,3 +15,80 @@
     width: 1px;
     overflow: hidden;
 }
+
+.page-header {
+    background-color: rgb(124, 126, 119);
+}
+
+.header-nav {
+    color: #222222;
+    display: flex;  
+    align-items: center;
+    padding: 10px;  
+}
+
+.phone {
+    margin-left: auto;
+}
+
+.navigation__item {    
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.navigation__link {    
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+.navigation__link:hover {
+    color: rgba(255,255,255, 0.75);
+}
+.logo:hover {
+    opacity: 0.75;
+
+}
+.phone {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;  
+}
+.phone:hover {
+    opacity: 0.75; 
+}
+
+.intro {
+    padding: 20px 0;    
+}
+
+.main__title {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.intro__link {
+    font-size: 14px;    
+    text-decoration: none;    
+}
+
+.button {
+    position: relative;
+    border: 1px solid #222222;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.button::after {
+    position: absolute;
+    content: url('/img/content-img/Arrow.png');          
+    background-repeat: no-repeat;
+    vertical-align: middle; 
+    left: 200px;
+}
+
+
+
